@@ -9,7 +9,7 @@ if (Win.buttons()[0].checkIsValid()) {
 	}
 
 Screenshot(num++);
-Win.scrollViews()[0].buttons()[0].tap();
+Win.buttons()["Twitter"].tap();
 target.delay(5);
 
 var tw_sn="no";
@@ -19,7 +19,7 @@ while(tw_sn=="no") {
 	break;
 	}
 	app.navigationBar().leftButton().tap();
-	Win.scrollViews()[0].buttons()[0].tap();
+	Win.buttons()["Twitter"].tap();
 	target.delay(5);
 }
 
@@ -38,9 +38,9 @@ app.keyboard().typeString(user1_psswd);
 target.delay(1)
 Win.scrollViews()[0].webViews()[0].buttons()[0].scrollToVisible();
 Win.scrollViews()[0].webViews()[0].buttons()[0].tap();
-Wait(app.tabBar().buttons()["Banjo"], 3);
+Wait(app.navigationBar().rightButton(), 3);
 
-if (app.tabBar().buttons()["Banjo"].checkIsValid()) {
+if (app.navigationBar().rightButton().checkIsValid()) {
 	UIALogger.logPass("TWITTER SIGNIN PASSED");
 	Screenshot(num++, 4);
 	}
