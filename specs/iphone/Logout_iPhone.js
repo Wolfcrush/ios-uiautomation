@@ -7,7 +7,7 @@ describe("Banjo - Logout.", function() {
 		target.delay(1);
 		Win.tableViews()[0].cells()[5].tap();
 		Screenshot(num++, 1);
-		Win.tableViews()[1].cells()[7].tap();
+		Win.tableViews()[1].cells()[8].tap();
 		Screenshot(num++, 1);
 		app.actionSheet().buttons()[0].tap();
 		target.delay(5);
