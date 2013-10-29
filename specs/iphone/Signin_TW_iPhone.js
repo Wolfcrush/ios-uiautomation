@@ -35,7 +35,7 @@ target.delay(2);
 Win.scrollViews()[0].webViews()[0].elements()[18].tap();
 target.delay(1);
 app.keyboard().typeString(user1_psswd+"\n");
-target.delay(1)
+target.delay(1);
 //Win.scrollViews()[0].webViews()[0].buttons()[0].scrollToVisible();
 //Win.scrollViews()[0].webViews()[0].buttons()[0].tap();
 Wait(app.navigationBar().rightButton(), 3);
