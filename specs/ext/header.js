@@ -1,7 +1,7 @@
-UIALogger.logMessage("Starting Test Script");
+//UIALogger.logMessage("Starting Test Script");
 
 UIATarget.onAlert = function onAlert(alert){
-    UIALogger.logMessage("alert Shown");
+    //UIALogger.logMessage("alert Shown");
 	target.frontMostApp().alert().defaultButton().tap();
 }
 
@@ -72,4 +72,4 @@ var i=0
 var model=target.model();
 //target.setLocationWithOptions({latitude: 40.643772, longitude: -73.781993}, {altitude: 200.0, speed: 5});
 target.logElementTree();
-UIALogger.logMessage("Device Name: " + target.name() + " / Model: " + model + " / OS Version: " + target.systemVersion());
+//UIALogger.logMessage("Device Name: " + target.name() + " / Model: " + model + " / OS Version: " + target.systemVersion());
