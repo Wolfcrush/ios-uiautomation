@@ -33,7 +33,7 @@ if [ ! -d "test-reports" ]; then
 fi
 
 # Kick off the instruments build
-instruments \
+instruments -v \
 $RUN_ON_SPECIFIC_DEVICE_OPTION \
 -t $TRACETEMPLATE \
 "$APP_LOCATION" \
