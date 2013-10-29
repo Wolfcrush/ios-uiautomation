@@ -23,7 +23,7 @@ while(tw_sn=="no") {
 	target.delay(5);
 }
 
-UIALogger.logStart("TWITTER SIGNIN");
+//UIALogger.logStart("TWITTER SIGNIN");
 
 Wait(Win.scrollViews()[0].webViews()[0].elements()[17], 3)
 Screenshot(num++);
@@ -42,11 +42,11 @@ target.delay(1);
 Wait(app.navigationBar().rightButton(), 3);
 
 if (app.navigationBar().rightButton().checkIsValid()) {
-	UIALogger.logPass("TWITTER SIGNIN PASSED");
+	//UIALogger.logPass("TWITTER SIGNIN PASSED");
 	Screenshot(num++, 4);
 	}
 else {
-	UIALogger.logFail("TWITTER SIGNIN FAILED");
+	//UIALogger.logFail("TWITTER SIGNIN FAILED");
 	throw new Error("TWITTER SIGNIN FAILED");
 	}
 	});
