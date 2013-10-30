@@ -3,10 +3,10 @@ describe("Banjo - Sign in.", function() {
 //---------------------------------------
 it("TWITTER SIGNIN", function() {
 
-if (Win.buttons()[0].checkIsValid()) {
-	Screenshot(num++, 3);
-	Win.buttons()[0].tap();
-	}
+//if (Win.buttons()[0].checkIsValid()) {
+//	Screenshot(num++, 3);
+//	Win.buttons()[0].tap();
+//	}
 
 Screenshot(num++);
 Win.buttons()["Twitter"].tap();
