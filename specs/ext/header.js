@@ -1,9 +1,9 @@
 //UIALogger.logMessage("Starting Test Script");
 
-UIATarget.onAlert = function onAlert(alert){
-    //UIALogger.logMessage("alert Shown");
-	target.frontMostApp().alert().defaultButton().tap();
-}
+//UIATarget.onAlert = function onAlert(alert){
+//    //UIALogger.logMessage("alert Shown");
+//	target.frontMostApp().alert().defaultButton().tap();
+//}
 
 function Screenshot(num, pause){
 	if (!pause) {
@@ -71,5 +71,5 @@ var num=0;
 var i=0
 var model=target.model();
 //target.setLocationWithOptions({latitude: 40.643772, longitude: -73.781993}, {altitude: 200.0, speed: 5});
-target.logElementTree();
+//target.logElementTree();
 //UIALogger.logMessage("Device Name: " + target.name() + " / Model: " + model + " / OS Version: " + target.systemVersion());
