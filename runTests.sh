@@ -6,7 +6,7 @@ BASE_TEST_SCRIPT=$1
 APP_LOCATION=$2
 DEVICE_ID=$3
 
-cd ./jasmine
+cd /Users/Shared/Jenkins/Home/jobs/iOS-v4-UIAutomation-iPhone/workspace/jasmine/
 
 #------------------------------
 log_path="./temp_logs"
